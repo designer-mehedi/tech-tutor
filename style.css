@@ -9,15 +9,18 @@ body{
     /* Color */
     --primary: #222;
     --secondary: #333;
+    --text: #777;
 
     /* Font Size */
     --fs-16: 1rem;
     --fs-18: 1.1rem; /*h5,h6*/
     --fs-20: 1.2rem; /*h4*/
+    --fs-25: 1.5rem; /*h3*/
+    --fs-30: 1.8rem;
     --fs-40: 2.5rem; /*logo*/
     --fs-65: 4rem; /*h1*/
     --fs-45: 2.8rem; /*h2*/
-    --fs-25: 1.5rem; /*h3*/
+   
     
     /* Font Weight */
     --fw-600: 600;
@@ -25,9 +28,27 @@ body{
     --fw-400: 400;
 }
 
+h3{
+    font-weight: var(--fw-600);
+}
+h5{
+    font-weight: var(--fw-600);
+}
+h6{
+    color: var(--text);
+    font-size: small;
+}
+p, span{
+    color: var(--text);
+}
+h2 {
+    font-size: var(--fs-45);
+    font-weight: var(--fw-600);
+}
+
 /* Custom Styles */
 .logo{
-    font-size: var(--fs-40);
+    font-size: var(--fs-30);
     color: var(--primary);
     font-weight: var(--fw-500);
 }
@@ -62,14 +83,22 @@ body{
 .caption p{
     font-size: 1vw;
 }
-
-/* Courses */
-.section-title h2{
-    font-size: var(--fs-45);
-    font-weight: var(--fw-600);
+.our-courses span{
+    font-weight: var(--fw-500);
 }
-
+.card-bg{
+    background: rgba(136, 136, 242, 0.099);
+}
+.enrollment{
+    padding: 80px 0;
+}
+.counter{
+    width: 80%;
+}
 /* Footer */
+.footer{
+    padding: 80px 0;
+}
 .social-links .link-item{
     height: 30px;
     width: 30px;
