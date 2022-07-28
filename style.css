@@ -9,10 +9,6 @@ body{
     /* Color */
     --primary: #222;
     --secondary: #333;
-    --helper: #289bde;
-    --pure: #fff;
-    --dark: #777777;
-    --text: #a4a4a4;
 
     /* Font Size */
     --fs-16: 1rem;
@@ -38,18 +34,6 @@ body{
 .menubar li a{
     margin: 0 1rem;
 }
-.top-btn{
-    border-color: var(--helper);
-    color: var(--helper);
-}
-.top-btn:hover{
-    background-color: var(--helper);
-    border-color: var(--helper);
-    color: var(--pure);
-}
-.carousel .carousel-inner .carousel-item{
-    height: 100%;
-}
 .img-overlay::after{
     content: '';
     display: block;
@@ -62,8 +46,14 @@ body{
 }
 .caption{
     z-index: 1;
-    top: 10%;
-    bottom: auto;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 0;
+    margin: auto;
+    transform: translateX(-50%);
+    width: 80%;
 }
 .caption h1{
     font-size: 4vw;
@@ -74,8 +64,7 @@ body{
 }
 
 /* Courses */
-.section-title{
-    width: 40%;
+.section-title h2{
     font-size: var(--fs-45);
     font-weight: var(--fw-600);
 }
