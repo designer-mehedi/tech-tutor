@@ -80,3 +80,11 @@ body{
     font-weight: var(--fw-600);
 }
 
+/* Footer */
+.social-links .link-item{
+    height: 30px;
+    width: 30px;
+    line-height: 33px;
+    background: #333;
+}
+
