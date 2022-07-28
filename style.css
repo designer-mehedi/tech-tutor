@@ -29,7 +29,7 @@ body{
     --fw-400: 400;
 }
 
-/* Bootstrap Override*/
+/* Custom Styles */
 .logo{
     font-size: var(--fs-40);
     color: var(--primary);
@@ -47,3 +47,36 @@ body{
     border-color: var(--helper);
     color: var(--pure);
 }
+.carousel .carousel-inner .carousel-item{
+    height: 100%;
+}
+.img-overlay::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,.8);
+}
+.caption{
+    z-index: 1;
+    top: 10%;
+    bottom: auto;
+}
+.caption h1{
+    font-size: 4vw;
+    font-weight: 600;
+}
+.caption p{
+    font-size: 1vw;
+}
+
+/* Courses */
+.section-title{
+    width: 40%;
+    font-size: var(--fs-45);
+    font-weight: var(--fw-600);
+}
+
