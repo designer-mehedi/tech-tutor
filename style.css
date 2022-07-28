@@ -10,24 +10,14 @@ body{
     --primary: #222;
     --secondary: #333;
     --text: #777;
-
     /* Font Size */
     --fs-16: 1rem;
-    --fs-18: 1.1rem; /*h5,h6*/
-    --fs-20: 1.2rem; /*h4*/
-    --fs-25: 1.5rem; /*h3*/
     --fs-30: 1.8rem;
-    --fs-40: 2.5rem; /*logo*/
-    --fs-65: 4rem; /*h1*/
-    --fs-45: 2.8rem; /*h2*/
-   
-    
+    --fs-45: 2.8rem; 
     /* Font Weight */
     --fw-600: 600;
-    --fw-500: 500; /*li, h6, p, a*/
-    --fw-400: 400;
+    --fw-500: 500; 
 }
-
 h3{
     font-weight: var(--fw-600);
 }
@@ -45,8 +35,8 @@ h2 {
     font-size: var(--fs-45);
     font-weight: var(--fw-600);
 }
-
 /* Custom Styles */
+/* Header & Main */
 .logo{
     font-size: var(--fs-30);
     color: var(--primary);
@@ -78,7 +68,7 @@ h2 {
 }
 .caption h1{
     font-size: 4vw;
-    font-weight: 600;
+    font-weight: var(--fw-600);
 }
 .caption p{
     font-size: 1vw;
