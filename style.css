@@ -83,7 +83,7 @@ h2 {
     font-weight: var(--fw-500);
 }
 .about-us .card-bg{
-    background: rgba(136, 136, 242, 0.099);
+    background: rgba(136, 136, 242, 0.098);
 }
 .get-enrolled .enrollment{
     padding: 80px 0;
@@ -99,6 +99,6 @@ h2 {
     height: 30px;
     width: 30px;
     line-height: 33px;
-    background: #333;
+    background: var(--secondary);
 }
 
